@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
-		3C9B7EA327B50E990051451D /* Beezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9B7EA327B50E990051451D /* CoBeez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoBeez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9B7EA627B50E990051451D /* BeezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeezyApp.swift; sourceTree = "<group>"; };
 		3C9B7EA827B50E990051451D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3C9B7EAA27B50E9A0051451D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		3C9B7E9A27B50E990051451D = {
 			isa = PBXGroup;
 			children = (
-				3C9B7EA527B50E990051451D /* Beezy */,
+				3C9B7EA527B50E990051451D /* CoBeez */,
 				3C9B7EA427B50E990051451D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,12 +61,12 @@
 		3C9B7EA427B50E990051451D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C9B7EA327B50E990051451D /* Beezy.app */,
+				3C9B7EA327B50E990051451D /* CoBeez.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C9B7EA527B50E990051451D /* Beezy */ = {
+		3C9B7EA527B50E990051451D /* CoBeez */ = {
 			isa = PBXGroup;
 			children = (
 				3C9B7EA627B50E990051451D /* BeezyApp.swift */,
@@ -80,7 +80,7 @@
 				3C9B7EAA27B50E9A0051451D /* Assets.xcassets */,
 				3C9B7EAC27B50E9A0051451D /* Preview Content */,
 			);
-			path = Beezy;
+			path = CoBeez;
 			sourceTree = "<group>";
 		};
 		3C9B7EAC27B50E9A0051451D /* Preview Content */ = {
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C9B7EA227B50E990051451D /* Beezy */ = {
+		3C9B7EA227B50E990051451D /* CoBeez */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C9B7EB127B50E9A0051451D /* Build configuration list for PBXNativeTarget "Beezy" */;
+			buildConfigurationList = 3C9B7EB127B50E9A0051451D /* Build configuration list for PBXNativeTarget "CoBeez" */;
 			buildPhases = (
 				3C9B7E9F27B50E990051451D /* Sources */,
 				3C9B7EA027B50E990051451D /* Frameworks */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = Beezy;
+			name = CoBeez;
 			productName = Beezy;
-			productReference = 3C9B7EA327B50E990051451D /* Beezy.app */;
+			productReference = 3C9B7EA327B50E990051451D /* CoBeez.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C9B7E9E27B50E990051451D /* Build configuration list for PBXProject "Beezy" */;
+			buildConfigurationList = 3C9B7E9E27B50E990051451D /* Build configuration list for PBXProject "CoBeez" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C9B7EA227B50E990051451D /* Beezy */,
+				3C9B7EA227B50E990051451D /* CoBeez */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Beezy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cobeez/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -350,7 +350,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RevenAnts.Beezy.Beezy;
-				PRODUCT_NAME = Beezy;
+				PRODUCT_NAME = CoBeez;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Beezy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cobeez/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -378,7 +378,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RevenAnts.Beezy.Beezy;
-				PRODUCT_NAME = Beezy;
+				PRODUCT_NAME = CoBeez;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C9B7E9E27B50E990051451D /* Build configuration list for PBXProject "Beezy" */ = {
+		3C9B7E9E27B50E990051451D /* Build configuration list for PBXProject "CoBeez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C9B7EAF27B50E9A0051451D /* Debug */,
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C9B7EB127B50E9A0051451D /* Build configuration list for PBXNativeTarget "Beezy" */ = {
+		3C9B7EB127B50E9A0051451D /* Build configuration list for PBXNativeTarget "CoBeez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C9B7EB227B50E9A0051451D /* Debug */,

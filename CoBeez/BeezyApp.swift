@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BeezyApp: App {
+struct CoBeezyApp: App {
     
     @StateObject private var vm = LocationsViewModel()
     

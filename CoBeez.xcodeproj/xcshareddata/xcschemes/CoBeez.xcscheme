@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3C9B7EA227B50E990051451D"
-               BuildableName = "Beezy.app"
-               BlueprintName = "Beezy"
-               ReferencedContainer = "container:Beezy.xcodeproj">
+               BuildableName = "CoBeez.app"
+               BlueprintName = "CoBeez"
+               ReferencedContainer = "container:CoBeez.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C9B7EA227B50E990051451D"
-            BuildableName = "Beezy.app"
-            BlueprintName = "Beezy"
-            ReferencedContainer = "container:Beezy.xcodeproj">
+            BuildableName = "CoBeez.app"
+            BlueprintName = "CoBeez"
+            ReferencedContainer = "container:CoBeez.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C9B7EA227B50E990051451D"
-            BuildableName = "Beezy.app"
-            BlueprintName = "Beezy"
-            ReferencedContainer = "container:Beezy.xcodeproj">
+            BuildableName = "CoBeez.app"
+            BlueprintName = "CoBeez"
+            ReferencedContainer = "container:CoBeez.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
