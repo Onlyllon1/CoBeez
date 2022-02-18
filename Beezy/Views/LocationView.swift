@@ -37,8 +37,8 @@ extension LocationView {
 
             Button(action: vm.toggleLocationsList) {
                 Text(vm.mapLocation.name + ", " + vm.mapLocation.cityName)
-                    .font(.title2)
-                    .fontWeight(.black)
+                    .font(.body)
+                    .fontWeight(.regular)
                     .foregroundColor(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)

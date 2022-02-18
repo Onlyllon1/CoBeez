@@ -76,8 +76,11 @@ extension LocationPreviewView {
             Text("Learn More")
                 .font(.headline)
                 .frame(width: 125, height: 35)
+                .padding(7)
+                .background(yellowAppColor)
+                .cornerRadius(10)
+                .foregroundColor(.black)
         }
-        .buttonStyle(.borderedProminent)
     }
     
 
@@ -90,8 +93,11 @@ extension LocationPreviewView {
             .font(.headline)
             .frame(width: 125, height: 35)
             .foregroundColor(yellowAppColor)
+            .padding(7)
+            .background(.white)
+            .cornerRadius(10)
+            .foregroundColor(.black)
     }
-    .buttonStyle(.bordered)
 }
 }
 
