@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7B132727BF8DAE00A96771 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */; };
+		3C9B7EA727B50E990051451D /* BeezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EA627B50E990051451D /* BeezyApp.swift */; };
+		3C9B7EA927B50E990051451D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EA827B50E990051451D /* MainView.swift */; };
+		3C9B7EAB27B50E9A0051451D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B7EAA27B50E9A0051451D /* Assets.xcassets */; };
+		3C9B7EAE27B50E9A0051451D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B7EAD27B50E9A0051451D /* Preview Assets.xcassets */; };
+		3C9B7EB527B59BF90051451D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EB427B59BF90051451D /* SearchView.swift */; };
+		3CB4FB9627BE66F4007CBE2F /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4FB9527BE66F4007CBE2F /* LocationListView.swift */; };
+		3CB4FB9827BF0E64007CBE2F /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4FB9727BF0E64007CBE2F /* LocationPreviewView.swift */; };
+		3CEFED1127BA73AF000D7379 /* CoralButtonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1027BA73AF000D7379 /* CoralButtonStruct.swift */; };
+		3CEFED1427BD48B9000D7379 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1327BD48B9000D7379 /* Location.swift */; };
+		3CEFED1727BD4936000D7379 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1627BD4936000D7379 /* LocationView.swift */; };
+		3CEFED1A27BD4A0B000D7379 /* LocationsDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1927BD4A0B000D7379 /* LocationsDataServices.swift */; };
+		3CEFED1D27BD4CE9000D7379 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1C27BD4CE9000D7379 /* LocationsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		3C9B7EA327B50E990051451D /* Beezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9B7EA627B50E990051451D /* BeezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeezyApp.swift; sourceTree = "<group>"; };
+		3C9B7EA827B50E990051451D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3C9B7EAA27B50E9A0051451D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9B7EAD27B50E9A0051451D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C9B7EB427B59BF90051451D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3CB4FB9527BE66F4007CBE2F /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		3CB4FB9727BF0E64007CBE2F /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		3CEFED1027BA73AF000D7379 /* CoralButtonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoralButtonStruct.swift; sourceTree = "<group>"; };
+		3CEFED1327BD48B9000D7379 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3CEFED1627BD4936000D7379 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		3CEFED1927BD4A0B000D7379 /* LocationsDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataServices.swift; sourceTree = "<group>"; };
+		3CEFED1C27BD4CE9000D7379 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9B7EA027B50E990051451D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9B7E9A27B50E990051451D = {
+			isa = PBXGroup;
+			children = (
+				3C9B7EA527B50E990051451D /* Beezy */,
+				3C9B7EA427B50E990051451D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9B7EA427B50E990051451D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B7EA327B50E990051451D /* Beezy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9B7EA527B50E990051451D /* Beezy */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B7EA627B50E990051451D /* BeezyApp.swift */,
+				3C9B7EA827B50E990051451D /* MainView.swift */,
+				3C9B7EB427B59BF90051451D /* SearchView.swift */,
+				3CEFED1027BA73AF000D7379 /* CoralButtonStruct.swift */,
+				3CEFED1827BD49E9000D7379 /* DataServices */,
+				3CEFED1527BD4922000D7379 /* Views */,
+				3CEFED1227BD4898000D7379 /* Models */,
+				3CEFED1B27BD4CCC000D7379 /* ViewModel */,
+				3C9B7EAA27B50E9A0051451D /* Assets.xcassets */,
+				3C9B7EAC27B50E9A0051451D /* Preview Content */,
+			);
+			path = Beezy;
+			sourceTree = "<group>";
+		};
+		3C9B7EAC27B50E9A0051451D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B7EAD27B50E9A0051451D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CEFED1227BD4898000D7379 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CEFED1327BD48B9000D7379 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CEFED1527BD4922000D7379 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CEFED1627BD4936000D7379 /* LocationView.swift */,
+				3CB4FB9527BE66F4007CBE2F /* LocationListView.swift */,
+				3CB4FB9727BF0E64007CBE2F /* LocationPreviewView.swift */,
+				3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CEFED1827BD49E9000D7379 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				3CEFED1927BD4A0B000D7379 /* LocationsDataServices.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		3CEFED1B27BD4CCC000D7379 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CEFED1C27BD4CE9000D7379 /* LocationsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9B7EA227B50E990051451D /* Beezy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9B7EB127B50E9A0051451D /* Build configuration list for PBXNativeTarget "Beezy" */;
+			buildPhases = (
+				3C9B7E9F27B50E990051451D /* Sources */,
+				3C9B7EA027B50E990051451D /* Frameworks */,
+				3C9B7EA127B50E990051451D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beezy;
+			productName = Beezy;
+			productReference = 3C9B7EA327B50E990051451D /* Beezy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9B7E9B27B50E990051451D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3C9B7EA227B50E990051451D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C9B7E9E27B50E990051451D /* Build configuration list for PBXProject "Beezy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9B7E9A27B50E990051451D;
+			productRefGroup = 3C9B7EA427B50E990051451D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9B7EA227B50E990051451D /* Beezy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9B7EA127B50E990051451D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9B7EAE27B50E9A0051451D /* Preview Assets.xcassets in Resources */,
+				3C9B7EAB27B50E9A0051451D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9B7E9F27B50E990051451D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB4FB9627BE66F4007CBE2F /* LocationListView.swift in Sources */,
+				3CEFED1A27BD4A0B000D7379 /* LocationsDataServices.swift in Sources */,
+				3C9B7EA927B50E990051451D /* MainView.swift in Sources */,
+				3CEFED1727BD4936000D7379 /* LocationView.swift in Sources */,
+				3CEFED1D27BD4CE9000D7379 /* LocationsViewModel.swift in Sources */,
+				3C9B7EB527B59BF90051451D /* SearchView.swift in Sources */,
+				3CEFED1427BD48B9000D7379 /* Location.swift in Sources */,
+				3CEFED1127BA73AF000D7379 /* CoralButtonStruct.swift in Sources */,
+				3CB4FB9827BF0E64007CBE2F /* LocationPreviewView.swift in Sources */,
+				3C9B7EA727B50E990051451D /* BeezyApp.swift in Sources */,
+				3C7B132727BF8DAE00A96771 /* LocationMapAnnotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C9B7EAF27B50E9A0051451D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9B7EB027B50E9A0051451D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9B7EB227B50E9A0051451D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beezy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RevenAnts.Beezy.Beezy;
+				PRODUCT_NAME = Beezy;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9B7EB327B50E9A0051451D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beezy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RevenAnts.Beezy.Beezy;
+				PRODUCT_NAME = Beezy;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9B7E9E27B50E990051451D /* Build configuration list for PBXProject "Beezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9B7EAF27B50E9A0051451D /* Debug */,
+				3C9B7EB027B50E9A0051451D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9B7EB127B50E9A0051451D /* Build configuration list for PBXNativeTarget "Beezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9B7EB227B50E9A0051451D /* Debug */,
+				3C9B7EB327B50E9A0051451D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9B7E9B27B50E990051451D /* Project object */;
+}
