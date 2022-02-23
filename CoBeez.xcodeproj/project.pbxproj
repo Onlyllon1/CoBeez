@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4C1B2127C3A6DC00FB0AAC /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C1B2027C3A6DC00FB0AAC /* LocationDetailView.swift */; };
 		3C7B132727BF8DAE00A96771 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */; };
 		3C9B7EA727B50E990051451D /* BeezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EA627B50E990051451D /* BeezyApp.swift */; };
 		3C9B7EA927B50E990051451D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EA827B50E990051451D /* MainView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C4C1B2027C3A6DC00FB0AAC /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		3C9B7EA327B50E990051451D /* CoBeez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoBeez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9B7EA627B50E990051451D /* BeezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeezyApp.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3CB4FB9527BE66F4007CBE2F /* LocationListView.swift */,
 				3CB4FB9727BF0E64007CBE2F /* LocationPreviewView.swift */,
 				3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */,
+				3C4C1B2027C3A6DC00FB0AAC /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				3CB4FB9627BE66F4007CBE2F /* LocationListView.swift in Sources */,
 				3CEFED1A27BD4A0B000D7379 /* LocationsDataServices.swift in Sources */,
+				3C4C1B2127C3A6DC00FB0AAC /* LocationDetailView.swift in Sources */,
 				3C9B7EA927B50E990051451D /* MainView.swift in Sources */,
 				3CEFED1727BD4936000D7379 /* LocationView.swift in Sources */,
 				3CEFED1D27BD4CE9000D7379 /* LocationsViewModel.swift in Sources */,
@@ -337,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cobeez/Preview Content\"";
+				DEVELOPMENT_TEAM = YR37B9HTTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -365,6 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cobeez/Preview Content\"";
+				DEVELOPMENT_TEAM = YR37B9HTTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
