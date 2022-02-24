@@ -10,22 +10,18 @@ import SwiftUI
 struct LocationDetailView: View {
     
     let yellowAppColor = Color("yellowapp")
-
+    
     let location: Location
     
     var body: some View {
         ScrollView{
             VStack{
                 imageSection
-                    .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 10)
                 
                 VStack(alignment: .leading, spacing: 16){
                     titleSection
                     Divider()
                     descriptionSection
-                    Divider()
-                    
-                    
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
@@ -58,9 +54,12 @@ extension LocationDetailView {
             Text(location.name)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-            Text(location.cityName)
-                .font(.title3)
-                .foregroundColor(.secondary)
+            HStack {
+                Image("Pin")
+                Text("\(location.street), \(location.cityName)")
+                    .font(.system(size: 15) .weight(.semibold))
+                    .foregroundColor(.secondary)
+            }
         }
     }
     
