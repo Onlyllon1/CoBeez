@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+extension Color {
+    static let customWhite = Color("white")
+}
+
 @main
 struct CoBeezyApp: App {
     

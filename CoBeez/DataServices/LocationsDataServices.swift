@@ -20,6 +20,7 @@ class LocationsDataServices {
             "unpostoabase1",
             "unpostoabase2"
         ],
+        time: "",
         link: "www.base.milano.it/en/"),
     
     Location(
@@ -33,6 +34,7 @@ class LocationsDataServices {
             "daotto2",
             "daotto3"
         ],
+        time: "",
         link: "www.sarpiotto.com"),
     Location(
         name: "Starbucks Garibaldi",
@@ -45,6 +47,7 @@ class LocationsDataServices {
             "starbucksgaribaldi2",
             "starbucksgaribaldi3"
         ],
+        time: "",
         link: "www.starbucks.it"),
     
     Location(
@@ -58,6 +61,7 @@ class LocationsDataServices {
             "officinadesigncafè2",
             "officinadesigncafè3"
         ],
+        time: "",
         link: "www.officinadesigncafe.com"),
     
     Location(
@@ -71,6 +75,7 @@ class LocationsDataServices {
             "fondazionefeltrinelli2",
             "fondazionefeltrinelli3"
         ],
+        time: "",
         link: "www.fondazionefeltrinelli.it"),
     
     Location(
@@ -84,6 +89,7 @@ class LocationsDataServices {
             "Gogol&co2",
             "Gogol&co3"
         ],
+        time: "",
         link: "www.gogolandcompany.com"),
     
     Location(
@@ -95,6 +101,7 @@ class LocationsDataServices {
         imageNames: [
             "District47_1"
         ],
+        time: "",
         link: "www.google.com"),
     
     Location(
@@ -108,6 +115,7 @@ class LocationsDataServices {
             "Portineria14_2",
             "Portineria14_3"
         ],
+        time: "",
         link: "www.google.com"),
     
     Location(
@@ -121,6 +129,7 @@ class LocationsDataServices {
             "combo2",
             "combo3"
         ],
+        time: "",
         link: "https://thisiscombo.com/it/location/milano/"),
     
     Location(
@@ -134,6 +143,7 @@ class LocationsDataServices {
             "cascinacuccagna2",
             "cascinacuccagna3"
         ],
+        time: "",
         link: "www.google.com"),
     
     Location(
@@ -146,6 +156,7 @@ class LocationsDataServices {
             "cafègorille1",
             "cafègorille2"
         ],
+        time: "",
         link: "www.cafegorille.it"),
     
     Location(
@@ -158,6 +169,7 @@ class LocationsDataServices {
             "SanteriaPaladini1",
             "SanteriaPaladini2"
         ],
+        time: "",
         link: "www.santeria.milano.it"),
     
     Location(
@@ -171,6 +183,7 @@ class LocationsDataServices {
             "upcycle2",
             "upcycle3"
         ],
+        time: "",
         link: "www.upcyclecafe.it"),
     
     Location(
@@ -184,6 +197,7 @@ class LocationsDataServices {
             "Pavè2",
             "Pavè3"
         ],
+        time: "",
         link: "www.pavemilano.com"),
     
     Location(
@@ -195,6 +209,7 @@ class LocationsDataServices {
         imageNames: [
             "Aspirin1"
         ],
+        time: "",
         link: "www.com")
     ]
 }

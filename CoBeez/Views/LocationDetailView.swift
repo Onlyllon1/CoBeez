@@ -22,10 +22,16 @@ struct LocationDetailView: View {
                     titleSection
                     Divider()
                     descriptionSection
+                    
+                    timeAndButton
+
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
-            }
+                .background(.white)
+                .cornerRadius(20)
+                .offset(y: -20)
+                            }
         }
         .ignoresSafeArea()
     }
@@ -44,7 +50,7 @@ extension LocationDetailView {
                     .clipped()
             }
         }
-        .frame(height: 500)
+        .frame(height: 550)
         .tabViewStyle(PageTabViewStyle())
         
     }
@@ -69,11 +75,25 @@ extension LocationDetailView {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
             
-            if let url = URL(string: location.link){
-                Link("Go on the site", destination: url)
-                    .font(.headline)
-                    .tint(yellowAppColor)
+//            if let url = URL(string: location.link){
+//                Link("Go on the site", destination: url)
+//                    .font(.headline)
+//                    .tint(yellowAppColor)
+//            }
+        }
+    }
+    
+    private var timeAndButton: some View {
+        HStack {
+            Text("8am")
+            Spacer()
+            Button("Go!") {
             }
+            .frame(width: 80)
+            .padding()
+            .foregroundColor(.white)
+            .background(yellowAppColor)
+            .clipShape(Capsule())
         }
     }
 }
