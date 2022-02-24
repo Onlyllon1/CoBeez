@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LocationDetailView: View {
     
+    @EnvironmentObject private var vm: LocationsViewModel
+    
     let yellowAppColor = Color("yellowapp")
     
     let location: Location
@@ -34,6 +36,8 @@ struct LocationDetailView: View {
                             }
         }
         .ignoresSafeArea()
+        .background(.ultraThinMaterial)
+        .overlay(backButton, alignment: .topLeading)
     }
 }
 
@@ -103,6 +107,22 @@ extension LocationDetailView {
             .clipShape(Capsule())
         }
     }
+    
+    private var backButton: some View {
+        Button {
+            vm.sheetLocation = nil
+        } label: {
+            Image(systemName: "xmark")
+                .font(.headline)
+                .padding(16)
+                .foregroundColor(.primary)
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(radius: 4)
+                .padding()
+        }
+    }
+    
 }
 
 struct LocationDetailView_Previews: PreviewProvider {
