@@ -85,9 +85,16 @@ extension LocationDetailView {
     
     private var timeAndButton: some View {
         HStack {
-            Text("8am")
+            HStack {
+                Image("Clock")
+                Text(location.time)
+                    .font(.system(size: 12) .weight(.medium))
+                    .foregroundColor(.secondary)
+            }
+
             Spacer()
             Button("Go!") {
+//                comando per portare a mappe
             }
             .frame(width: 80)
             .padding()
