@@ -20,7 +20,7 @@ class LocationsDataServices {
             "unpostoabase1",
             "unpostoabase2"
         ],
-        time: "",
+        time: "09:00 - 01:00",
         link: "www.base.milano.it/en/"),
     
     Location(
@@ -34,7 +34,7 @@ class LocationsDataServices {
             "daotto2",
             "daotto3"
         ],
-        time: "",
+        time: "12:01 - 01:00",
         link: "www.sarpiotto.com"),
     Location(
         name: "Starbucks Garibaldi",
@@ -47,7 +47,7 @@ class LocationsDataServices {
             "starbucksgaribaldi2",
             "starbucksgaribaldi3"
         ],
-        time: "",
+        time: "08:00 - 19:00",
         link: "www.starbucks.it"),
     
     Location(
@@ -61,7 +61,7 @@ class LocationsDataServices {
             "officinadesigncafè2",
             "officinadesigncafè3"
         ],
-        time: "",
+        time: "07:00 - 00:00",
         link: "www.officinadesigncafe.com"),
     
     Location(
@@ -75,7 +75,7 @@ class LocationsDataServices {
             "fondazionefeltrinelli2",
             "fondazionefeltrinelli3"
         ],
-        time: "",
+        time: "09:30/13:00 - 13:30/18:00",
         link: "www.fondazionefeltrinelli.it"),
     
     Location(
@@ -89,7 +89,7 @@ class LocationsDataServices {
             "Gogol&co2",
             "Gogol&co3"
         ],
-        time: "",
+        time: "09:00/14:00 - 16:00/21:00",
         link: "www.gogolandcompany.com"),
     
     Location(
@@ -101,7 +101,7 @@ class LocationsDataServices {
         imageNames: [
             "District47_1"
         ],
-        time: "",
+        time: "07:00 - 00:00",
         link: "www.google.com"),
     
     Location(
@@ -115,7 +115,7 @@ class LocationsDataServices {
             "Portineria14_2",
             "Portineria14_3"
         ],
-        time: "",
+        time: "12:00/14:00 - 16:00/23:00",
         link: "www.google.com"),
     
     Location(
@@ -129,7 +129,7 @@ class LocationsDataServices {
             "combo2",
             "combo3"
         ],
-        time: "",
+        time: "08:00 - 07:00",
         link: "https://thisiscombo.com/it/location/milano/"),
     
     Location(
@@ -143,7 +143,7 @@ class LocationsDataServices {
             "cascinacuccagna2",
             "cascinacuccagna3"
         ],
-        time: "",
+        time: "08:00 - 00:00",
         link: "www.google.com"),
     
     Location(
@@ -156,7 +156,7 @@ class LocationsDataServices {
             "cafègorille1",
             "cafègorille2"
         ],
-        time: "",
+        time: "12:00 - 00:00",
         link: "www.cafegorille.it"),
     
     Location(
@@ -169,7 +169,7 @@ class LocationsDataServices {
             "SanteriaPaladini1",
             "SanteriaPaladini2"
         ],
-        time: "",
+        time: "18:00 - 23:00",
         link: "www.santeria.milano.it"),
     
     Location(
@@ -183,7 +183,7 @@ class LocationsDataServices {
             "upcycle2",
             "upcycle3"
         ],
-        time: "",
+        time: "10:00 - 23:00",
         link: "www.upcyclecafe.it"),
     
     Location(
@@ -197,7 +197,7 @@ class LocationsDataServices {
             "Pavè2",
             "Pavè3"
         ],
-        time: "",
+        time: "08:00 - 19:00",
         link: "www.pavemilano.com"),
     
     Location(
@@ -209,7 +209,7 @@ class LocationsDataServices {
         imageNames: [
             "Aspirin1"
         ],
-        time: "",
+        time: "12:00/15:50 - 18:30/23:00",
         link: "www.com")
     ]
 }
