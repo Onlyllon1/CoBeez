@@ -153,8 +153,8 @@ class LocationsDataServices {
         coordinates: CLLocationCoordinate2D(latitude: 45.48580215964737, longitude: 9.191708728431385),
         description: "Café Gorille is a project born and raised among friends, a place designed for those who love to meet, eat and drink well, have a chat and work with others. The walls of Café Gorille date back to 1882, when it opened as a workplace, hosting local artisan firms and artists.",
         imageNames: [
-            "cafègorille1",
-            "cafègorille2"
+            "cafegorille1",
+            "cafegorille2"
         ],
         time: "12:00 - 00:00",
         link: "www.cafegorille.it"),
@@ -193,9 +193,9 @@ class LocationsDataServices {
         coordinates: CLLocationCoordinate2D(latitude: 45.47937018303741, longitude: 9.202600884253572),
         description: "Pavé was founded in 2012 by three friends with the idea of creating excellency in artisanal bakery. Pavé is akin to the living room at home where high quality food can be enjoyed in a relaxed atmosphere.",
         imageNames: [
-            "Pavè1",
-            "Pavè2",
-            "Pavè3"
+            "Pave1",
+            "Pave2",
+            "Pave3"
         ],
         time: "08:00 - 19:00",
         link: "www.pavemilano.com"),

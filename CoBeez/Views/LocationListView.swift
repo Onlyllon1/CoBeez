@@ -11,6 +11,8 @@ struct LocationListView: View {
     
     @EnvironmentObject private var vm:LocationsViewModel
     
+    init() { UITableView.appearance().backgroundColor = .clear }
+    
     var body: some View {
         List{
             ForEach(vm.locations) { location in
@@ -18,12 +20,14 @@ struct LocationListView: View {
                     vm.showNextLocation(location: location)
                 } label: {
                     listRowView(location: location)
+                    
                 }
                 .padding(.vertical, 4)
                 .listRowBackground(Color.clear)
                 
             }
             .listStyle(PlainListStyle())
+            .foregroundColor(.primary)
         }
     }
 }

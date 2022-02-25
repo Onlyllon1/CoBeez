@@ -30,14 +30,14 @@ struct LocationDetailView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
-                .background(.white)
+                .background(.thickMaterial)
                 .cornerRadius(20)
                 .offset(y: -20)
                             }
         }
         .ignoresSafeArea()
         .background(.ultraThinMaterial)
-        .overlay(backButton, alignment: .topLeading)
+        .overlay(backButton, alignment: .topTrailing)
     }
 }
 
@@ -99,7 +99,7 @@ extension LocationDetailView {
             Spacer()
             Button("Go!") {
 //                comando per portare a mappe
-            }
+             }
             .frame(width: 80)
             .padding()
             .foregroundColor(.white)
@@ -114,10 +114,11 @@ extension LocationDetailView {
         } label: {
             Image(systemName: "xmark")
                 .font(.headline)
-                .padding(16)
-                .foregroundColor(.primary)
+//                .padding(16)
+                .frame(width: 50, height: 50)
+                .foregroundColor(yellowAppColor)
                 .background(.thickMaterial)
-                .cornerRadius(10)
+                .cornerRadius(20)
                 .shadow(radius: 4)
                 .padding()
         }
