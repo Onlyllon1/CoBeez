@@ -57,9 +57,9 @@ class LocationsDataServices {
         coordinates: CLLocationCoordinate2D(latitude: 45.48325038636844, longitude: 9.178745852076496),
         description: "Officina ADI Design Museum Cafè by CHIC Charming Italian Chef proposes the peculiarities of the relative Association founded in 2009, which unites more than one hundred professionals in the world of catering including chefs, pizza chefs, pastry chefs, ice cream makers and bakers, all of great profile who alternate in the preparation of all the products in the cafeteria to be consumed on site or purchased.",
         imageNames: [
-            "officinadesigncafè1",
-            "officinadesigncafè2",
-            "officinadesigncafè3"
+            "officinadesigncafe1",
+            "officinadesigncafe2",
+            "officinadesigncafe3"
         ],
         time: "07:00 - 00:00",
         link: "www.officinadesigncafe.com"),

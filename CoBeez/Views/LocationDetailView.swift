@@ -26,17 +26,17 @@ struct LocationDetailView: View {
                     descriptionSection
                     
                     timeAndButton
-
+                    
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
                 .background(.thickMaterial)
                 .cornerRadius(20)
                 .offset(y: -20)
-                            }
+            }
         }
         .ignoresSafeArea()
-        .background(.ultraThinMaterial)
+        .background(.thickMaterial)
         .overlay(backButton, alignment: .topTrailing)
     }
 }
@@ -79,11 +79,11 @@ extension LocationDetailView {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
             
-//            if let url = URL(string: location.link){
-//                Link("Go on the site", destination: url)
-//                    .font(.headline)
-//                    .tint(yellowAppColor)
-//            }
+            //            if let url = URL(string: location.link){
+            //                Link("Go on the site", destination: url)
+            //                    .font(.headline)
+            //                    .tint(yellowAppColor)
+            //            }
         }
     }
     
@@ -95,17 +95,17 @@ extension LocationDetailView {
                     .font(.system(size: 12) .weight(.medium))
                     .foregroundColor(.secondary)
             }
-
+            
             Spacer()
             Button("Go!") {
-//                comando per portare a mappe
+                //                comando per portare a mappe
                 let url = URL(string: "maps://?daddr=\(location.coordinates.latitude),\(location.coordinates.longitude)")
                 if UIApplication.shared.canOpenURL(url!) {
-                      UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+                    UIApplication.shared.open(url!, options: [:], completionHandler: nil)
                 }
                 
-
-             }
+                
+            }
             .frame(width: 80)
             .padding()
             .foregroundColor(.white)
@@ -120,7 +120,7 @@ extension LocationDetailView {
         } label: {
             Image(systemName: "xmark")
                 .font(.headline)
-//                .padding(16)
+            //                .padding(16)
                 .frame(width: 50, height: 50)
                 .foregroundColor(yellowAppColor)
                 .background(.thickMaterial)

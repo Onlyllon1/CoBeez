@@ -12,6 +12,8 @@ struct LocationView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
     
+    @AppStorage("firstTime") var firstTime: Bool = true
+    
     var body: some View {
         ZStack{
             mapLayer
@@ -22,10 +24,14 @@ struct LocationView: View {
                     .padding()
                 Spacer()
                 locationPreviewStack
+                Button("modal") {
+                    firstTime.toggle()
+                }
                 
                 
                 
             }
+            .sheet(isPresented: $firstTime, onDismiss: {firstTime = false}, content: {OnboardingView()})
         }
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
             LocationDetailView(location: location)
