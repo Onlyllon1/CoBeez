@@ -99,6 +99,12 @@ extension LocationDetailView {
             Spacer()
             Button("Go!") {
 //                comando per portare a mappe
+                let url = URL(string: "maps://?daddr=\(location.coordinates.latitude),\(location.coordinates.longitude)")
+                if UIApplication.shared.canOpenURL(url!) {
+                      UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+                }
+                
+
              }
             .frame(width: 80)
             .padding()

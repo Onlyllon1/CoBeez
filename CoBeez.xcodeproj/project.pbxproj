@@ -10,13 +10,10 @@
 		3C4C1B2127C3A6DC00FB0AAC /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C1B2027C3A6DC00FB0AAC /* LocationDetailView.swift */; };
 		3C7B132727BF8DAE00A96771 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */; };
 		3C9B7EA727B50E990051451D /* BeezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EA627B50E990051451D /* BeezyApp.swift */; };
-		3C9B7EA927B50E990051451D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EA827B50E990051451D /* MainView.swift */; };
 		3C9B7EAB27B50E9A0051451D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B7EAA27B50E9A0051451D /* Assets.xcassets */; };
 		3C9B7EAE27B50E9A0051451D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B7EAD27B50E9A0051451D /* Preview Assets.xcassets */; };
-		3C9B7EB527B59BF90051451D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B7EB427B59BF90051451D /* SearchView.swift */; };
 		3CB4FB9627BE66F4007CBE2F /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4FB9527BE66F4007CBE2F /* LocationListView.swift */; };
 		3CB4FB9827BF0E64007CBE2F /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4FB9727BF0E64007CBE2F /* LocationPreviewView.swift */; };
-		3CEFED1127BA73AF000D7379 /* CoralButtonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1027BA73AF000D7379 /* CoralButtonStruct.swift */; };
 		3CEFED1427BD48B9000D7379 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1327BD48B9000D7379 /* Location.swift */; };
 		3CEFED1727BD4936000D7379 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1627BD4936000D7379 /* LocationView.swift */; };
 		3CEFED1A27BD4A0B000D7379 /* LocationsDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFED1927BD4A0B000D7379 /* LocationsDataServices.swift */; };
@@ -28,13 +25,10 @@
 		3C7B132627BF8DAE00A96771 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		3C9B7EA327B50E990051451D /* CoBeez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoBeez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9B7EA627B50E990051451D /* BeezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeezyApp.swift; sourceTree = "<group>"; };
-		3C9B7EA827B50E990051451D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3C9B7EAA27B50E9A0051451D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C9B7EAD27B50E9A0051451D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3C9B7EB427B59BF90051451D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		3CB4FB9527BE66F4007CBE2F /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		3CB4FB9727BF0E64007CBE2F /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
-		3CEFED1027BA73AF000D7379 /* CoralButtonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoralButtonStruct.swift; sourceTree = "<group>"; };
 		3CEFED1327BD48B9000D7379 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3CEFED1627BD4936000D7379 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		3CEFED1927BD4A0B000D7379 /* LocationsDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataServices.swift; sourceTree = "<group>"; };
@@ -72,9 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				3C9B7EA627B50E990051451D /* BeezyApp.swift */,
-				3C9B7EA827B50E990051451D /* MainView.swift */,
-				3C9B7EB427B59BF90051451D /* SearchView.swift */,
-				3CEFED1027BA73AF000D7379 /* CoralButtonStruct.swift */,
 				3CEFED1827BD49E9000D7379 /* DataServices */,
 				3CEFED1527BD4922000D7379 /* Views */,
 				3CEFED1227BD4898000D7379 /* Models */,
@@ -202,12 +193,9 @@
 				3CB4FB9627BE66F4007CBE2F /* LocationListView.swift in Sources */,
 				3CEFED1A27BD4A0B000D7379 /* LocationsDataServices.swift in Sources */,
 				3C4C1B2127C3A6DC00FB0AAC /* LocationDetailView.swift in Sources */,
-				3C9B7EA927B50E990051451D /* MainView.swift in Sources */,
 				3CEFED1727BD4936000D7379 /* LocationView.swift in Sources */,
 				3CEFED1D27BD4CE9000D7379 /* LocationsViewModel.swift in Sources */,
-				3C9B7EB527B59BF90051451D /* SearchView.swift in Sources */,
 				3CEFED1427BD48B9000D7379 /* Location.swift in Sources */,
-				3CEFED1127BA73AF000D7379 /* CoralButtonStruct.swift in Sources */,
 				3CB4FB9827BF0E64007CBE2F /* LocationPreviewView.swift in Sources */,
 				3C9B7EA727B50E990051451D /* BeezyApp.swift in Sources */,
 				3C7B132727BF8DAE00A96771 /* LocationMapAnnotationView.swift in Sources */,
@@ -341,7 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cobeez/Preview Content\"";
-				DEVELOPMENT_TEAM = 2G8PXYNWSD;
+				DEVELOPMENT_TEAM = YR37B9HTTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -372,7 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cobeez/Preview Content\"";
-				DEVELOPMENT_TEAM = 2G8PXYNWSD;
+				DEVELOPMENT_TEAM = YR37B9HTTD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
