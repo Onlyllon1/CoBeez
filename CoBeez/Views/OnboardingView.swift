@@ -10,8 +10,6 @@ import SwiftUI
 struct OnboardingView: View {
     @AppStorage("firstTime") var firstTime: Bool = true
     
-//    @Binding var showOnboarding: Bool
-
     var body: some View {
         VStack {
             VStack {
