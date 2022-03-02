@@ -13,16 +13,18 @@ struct OnboardingRow: View {
     var text: String
     
     var body: some View {
-        HStack {
+        HStack(spacing: 20) {
             Image(systemName: icon)
-                .font(.system(size: 50))
+                .resizable()
+                .scaledToFit()
                 .foregroundColor(Color("yellowapp"))
+                .frame(width: 35, height: 35)
             VStack (alignment: .leading){
                 Text(titolo)
-                    .font(.title3)
-                    .fontWeight(.bold)
-                Text(text)
                     .font(.body)
+                    .fontWeight(.semibold)
+                Text(text)
+                    .font(.callout)
                     .foregroundColor(Color(.systemGray))
             }
             Spacer()

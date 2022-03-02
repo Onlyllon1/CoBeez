@@ -21,10 +21,10 @@ struct OnboardingView: View {
             
             Spacer()
             
-            VStack(spacing: 45) {
-                OnboardingRow(icon: "magnifyingglass", titolo: "Browse places", text: "Look through the places we selected for you. ")
-                OnboardingRow(icon: "checkmark.circle", titolo: "Choose one", text: "View details and find the perfect spot according to your needs.")
-                OnboardingRow(icon: "map", titolo: "Go!", text: "Open it on maps and start your route to it.")
+            VStack(spacing: 30) {
+                OnboardingRow(icon: "magnifyingglass.circle.fill", titolo: "Explore the hives", text: "Look through the places we selected for you.")
+                OnboardingRow(icon: "checkmark.circle.fill", titolo: "Choose your cell", text: "View details and find the perfect spot according to your needs.")
+                OnboardingRow(icon: "map.fill", titolo: "Tap and fly", text: "Get to the place and start your joruney")
             }
             Spacer()
             
@@ -37,6 +37,7 @@ struct OnboardingView: View {
                     .background(Color("yellowapp"))
                     .foregroundColor(.white)
                     .cornerRadius(16)
+                    .padding(.horizontal, 10)
             }
 
 
@@ -44,6 +45,8 @@ struct OnboardingView: View {
         }
         .frame(maxHeight: 600)
         .padding()
+        .padding(.horizontal, 20)
+
     }
 }
 

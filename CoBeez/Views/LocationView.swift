@@ -24,10 +24,6 @@ struct LocationView: View {
                     .padding()
                 Spacer()
                 locationPreviewStack
-                Button("modal") {
-                    firstTime.toggle()
-                }
-                
                 
                 
             }
